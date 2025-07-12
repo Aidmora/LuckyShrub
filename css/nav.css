@@ -1,0 +1,50 @@
+#nav-container {
+  position: sticky;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: #333;
+  z-index: 999;
+  overflow-x: hidden;
+}
+
+#barraNav {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#nav-container .tiempoCambio {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #01f129;
+  animation: tiempoCambio 2s linear 1s forwards;
+}
+
+#barraNav li {
+  flex: 0 0 auto;
+}
+
+#barraNav a {
+  display: block;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color .2s ease, transform .2s ease;
+}
+
+#barraNav .active,
+#barraNav li:hover a {
+  background: #01f129;
+  border-radius: 2px;
+  transform: scale(1.1);
+}

@@ -1,0 +1,29 @@
+[
+    {
+      "img": "images/jardin1.jpg",
+      "titulo": "Jardín Rosado",
+      "nombre": "Jardín con árboles de flores rosadas ",
+      "descripcion": "Un hermoso jardín lleno de árboles de flores rosadas que crean un ambiente romántico y acogedor.",
+      "link": "#services"
+    },
+    {
+      "img": "images/jardin2.jpg",
+      "titulo": "Jardín con juegos decorativos",
+      "nombre": "Jardín Vista Verde",
+      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
+      "link": "#services"
+    },
+    {
+      "img": "images/jardin3.jpg"
+    },
+    {
+      "img": "images/jardin4.jpg"
+    },
+    {
+      "img": "images/jardin5.jpg"
+    },
+    {
+      "img": "images/jardin6.jpg"
+    }
+]
+  
