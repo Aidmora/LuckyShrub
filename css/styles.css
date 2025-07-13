@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-/* 1) La paleta como clases de utilidad */
-.color1 { background-color:#c3dee0; }
+
+.color1 { background-color:#e6e7d1; }
 .color2 { background-color: #e9f4f6; }
 .color3 { background-color:#134235; }
 .color4 { background-color: #08c1ff; }
@@ -331,6 +331,7 @@ div.content #boton:hover, #boton a:hover{
     align-content: center;
     justify-content: center;
     background-color:#c3dee0;
+    margin-bottom: 2%;
 }
 .service-item:hover{
     box-shadow: 3px 0px 0px #6b5626;
@@ -356,6 +357,20 @@ img.img-fluid {
   color: var(--text-2);
   text-transform:justify;
 }
+.servicio-titulo {
+  background-color: #134235;
+  padding-top:6rem;
+  align-items: center;
+}
+.servicio-titulo h2{
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: var(--ff-main);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5%;
+  color:#c3dee0;
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -364,20 +379,35 @@ footer {
   color: #fff;
 }
 .about-titulo {
-  background-color: #c3dee0;
-  margin-top: 2rem;
-  text-align: center;
+  background-color: #134235;
+  padding-top:6rem;
+  align-items: center;
 }
 .about-titulo h2{
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
   font-style: var(--ff-main);
   text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5%;
+  color:#c3dee0;
 }
 .about-content{
-  height: 100vh;
   padding: 1rem;
+
+}
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-top: 2rem;
+}
+.img-logo{
+  max-width: 100%;
+  height: 100vh;
+  padding-left: 40%;
+  padding-top: 10%;
 }
 .logoFooter img {
   max-height: 40px;
