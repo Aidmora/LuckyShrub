@@ -495,15 +495,15 @@ footer {
   }
 }
 
-.logoFooter img {
-  max-height: 40px;
-  width: auto;
+.logoFooter img{
+  max-height:100px;
+  padding-left: 20%;
 }
 
-.footerCopyRight p {
-  margin: 0;
-  font-size: 0.75rem;
-  text-align: center;
+.footerCopyRight p{
+  padding-top: 60px;
+  padding-left: 10%;
+  font-size: 1.3rem;
 }
 @media (min-width: 769px) {
   nav {
