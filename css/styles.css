@@ -170,28 +170,6 @@ div.content{
   opacity: 0;
   animation: animation 1s ease-in-out 0.9s 1 forwards;
 }
-div.content #boton{
-  padding: 10px 10px;
-  cursor:pointer;
-  background-color: transparent;
-  border: 2px solid #fff;
-  width: fit-content;
-  opacity: 0;
-  animation: animation 1s ease-in-out 1s 1 forwards;
-}
-.content #boton a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: monospace;
-  text-transform: uppercase;
-}
-div.content #boton:hover, #boton a:hover{
-  background-color:greenyellow;
-  color: #000;
-  transition: all .2s ease-in-out;
-}
 .carousel .list .item:nth-child(1),
 .carousel .list .item:nth-child(2) {
   top: 0;
@@ -221,29 +199,27 @@ div.content #boton:hover, #boton a:hover{
   position: absolute;
   top: 80%;
   left: 30%;
-  width: 300px;
-  max-width: 30%;
   z-index: 100;
   display: flex;
   gap: 20px;
   align-items: center;
-  width: fit-content;
+  width: 400px;
 }
 .carousel .flechas button:hover{
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
-  background-color: greenyellow;
-  color:black;
+  background-color: #134235;
+  color:#838252;
 }
 .carousel .flechas button {
-  width: 50px;
-  height: 50px;
-  background-color: bisque;
+  width: 70px;
+  height: 70px;
+  background-color:beige;
   border-radius: 50%;
   border: none;
   outline: none;
   cursor: pointer;
-  color: white;
+  color:black;
   font-size: 1rem;
   font-family: monospace;
   transition: .5s;

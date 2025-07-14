@@ -1,45 +1,44 @@
 [
-    {
-      "img": "images/jardin1.jpg",
-      "titulo": "Jardín Rosado",
-      "nombre": "Jardín con árboles de flores rosadas ",
-      "descripcion": "Un hermoso jardín lleno de árboles de flores rosadas que crean un ambiente romántico y acogedor.",
-      "link": "#services"
-    },
-    {
-      "img": "images/jardin2.jpg",
-      "titulo": "Jardín con juegos decorativos",
-      "nombre": "Jardín Vista Verde",
-      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
-      "link": "#services"
-    },
-    {
-      "img": "images/jardin3.jpg",
-      "titulo": "Jardín con juegos decorativos",
-      "nombre": "Jardín Vista Verde",
-      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
-      "link": "#services"
-    },
-    {
-      "img": "images/jardin4.jpg",
-      "titulo": "Jardín con juegos decorativos",
-      "nombre": "Jardín Vista Verde",
-      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
-      "link": "#services"
-    },
-    {
-      "img": "images/jardin5.jpg",
-      "titulo": "Jardín con juegos decorativos",
-      "nombre": "Jardín Vista Verde",
-      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
-      "link": "#services"
-    },
-    {
-      "img": "images/jardin6.jpg",
-      "titulo": "Jardín con juegos decorativos",
-      "nombre": "Jardín Vista Verde",
-      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
-      "link": "#services"
-    }
+  {
+    "img": "images/jardin1.jpg",
+    "titulo": "Jardín Rosado",
+    "nombre": "Camino de Pétalos",
+    "descripcion": "Un sendero flanqueado por arbustos de flores rosadas y césped bien recortado, ideal para paseos románticos al atardecer.",
+    "link": "#services"
+  },
+  {
+    "img": "images/jardin2.jpg",
+    "titulo": "Pórtico Verde",
+    "nombre": "Arcos de Enredadera",
+    "descripcion": "Una sucesión de arcos cubiertos por plantas trepadoras y follaje abundante, que crean un túnel natural lleno de luz y sombras.",
+    "link": "#services"
+  },
+  {
+    "img": "images/jardin3.jpg",
+    "titulo": "Jardín de Azaleas",
+    "nombre": "Estanque Florido",
+    "descripcion": "Coloridos arbustos de azaleas en primer plano junto a un estanque rodeado de palmeras, que aportan un ambiente tropical y vibrante.",
+    "link": "#services"
+  },
+  {
+    "img": "images/jardin4.jpg",
+    "titulo": "Camino Arbolado",
+    "nombre": "Pasarela de Piedra",
+    "descripcion": "Una pasarela de losas de piedra que serpentea entre praderas y setos, rodeada de árboles altos y naturaleza exuberante.",
+    "link": "#services"
+  },
+  {
+    "img": "images/jardin5.jpg",
+    "titulo": "Jardín Zen",
+    "nombre": "Rincón de Silencio",
+    "descripcion": "Zona de césped y árboles dispersos, con un árbol central rodeado por un laberinto de grava, ideal para la meditación al aire libre.",
+    "link": "#services"
+  },
+  {
+    "img": "images/jardin6.jpg",
+    "titulo": "Bosque Serpenteante",
+    "nombre": "Cúpula Arbórea",
+    "descripcion": "Un claro en el bosque con un círculo de árboles frondosos y senderos de tierra, que invita a la exploración y el descanso bajo la copa.",
+    "link": "#services"
+  }
 ]
-  
