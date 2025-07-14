@@ -14,16 +14,32 @@
       "link": "#services"
     },
     {
-      "img": "images/jardin3.jpg"
+      "img": "images/jardin3.jpg",
+      "titulo": "Jardín con juegos decorativos",
+      "nombre": "Jardín Vista Verde",
+      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
+      "link": "#services"
     },
     {
-      "img": "images/jardin4.jpg"
+      "img": "images/jardin4.jpg",
+      "titulo": "Jardín con juegos decorativos",
+      "nombre": "Jardín Vista Verde",
+      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
+      "link": "#services"
     },
     {
-      "img": "images/jardin5.jpg"
+      "img": "images/jardin5.jpg",
+      "titulo": "Jardín con juegos decorativos",
+      "nombre": "Jardín Vista Verde",
+      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
+      "link": "#services"
     },
     {
-      "img": "images/jardin6.jpg"
+      "img": "images/jardin6.jpg",
+      "titulo": "Jardín con juegos decorativos",
+      "nombre": "Jardín Vista Verde",
+      "descripcion": "Un jardín con juegos decorativos y plantas de colores vibrantes.",
+      "link": "#services"
     }
 ]
   

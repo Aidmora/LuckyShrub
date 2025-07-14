@@ -135,11 +135,14 @@ div.content{
   width: 100%;
   color: white;
   text-align: justify;
-  display:none;
 }
-.list.item:nth-child(2).content{
+.carousel .list .item .content {
+  display: none;
+}
+.carousel .list .item:nth-child(2) .content {
   display: block;
 }
+
 .item .content .titulo{
   font-size: 2.5rem;
   text-transform: uppercase;
