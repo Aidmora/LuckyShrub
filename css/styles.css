@@ -329,7 +329,7 @@ div.content{
     margin-bottom: 2%;
 }
 .service-item:hover{
-    box-shadow: 3px 0px 0px #6b5626;
+    box-shadow: 3px 0px 0px #134235;
 }
 img.img-fluid {
   max-width: 100%;
@@ -493,6 +493,7 @@ footer {
 .logoFooter img{
   max-height:100px;
   padding-left: 20%;
+  align-items: center;
 }
 
 .footerCopyRight p{
