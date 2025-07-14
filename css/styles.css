@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-/* 1) La paleta como clases de utilidad */
-.color1 { background-color:#c3dee0; }
+
+.color1 { background-color:#e6e7d1; }
 .color2 { background-color: #e9f4f6; }
 .color3 { background-color:#134235; }
 .color4 { background-color: #08c1ff; }
 .color5 { background-color: #0ffff8; }
 :root {
-  --header-height: 100px;
+  --header-height: 200px;
   --nav-height: 60px;
-  --logo-max: 80px;
+  --logo-max: 180px;
   --bg-dark:  #141414;
   --bg-alt:   #1f1f1f;
   --text-2:     #8d8d8d;
@@ -50,7 +50,7 @@ header {
   top: var(--header-height);
   left: 0;
   right: 0;
-  height: auto;
+  height: fit-content;
   background-color:#134235;
   z-index: 999;
   overflow-x: hidden;
@@ -83,6 +83,7 @@ header {
 #barraNav a {
   display: block;
   padding: 0.8rem 2rem;
+  font-size:1.2rem;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -97,8 +98,7 @@ header {
 }
 
 main {
-  margin-top:100px;
-  padding: 1rem;
+  margin-top:200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -135,11 +135,14 @@ div.content{
   width: 100%;
   color: white;
   text-align: justify;
-  display:none;
 }
-.list.item:nth-child(2).content{
+.carousel .list .item .content {
+  display: none;
+}
+.carousel .list .item:nth-child(2) .content {
   display: block;
 }
+
 .item .content .titulo{
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -163,34 +166,9 @@ div.content{
 .item .content .descripcion{
   font-size: 1rem;
   text-transform: uppercase;
-  opacity: 0.8;
   line-height: 3;
   opacity: 0;
   animation: animation 1s ease-in-out 0.9s 1 forwards;
-}
-div.content #boton{
-  padding: 10px 10px;
-  border: none;
-  cursor:pointer;
-  background-color: transparent;
-  border: 2px solid #fff;
-  width: fit-content;
-  opacity: 0;
-  animation: animation 1s ease-in-out 1s 1 forwards;
-}
-.content #boton a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: monospace;
-;
-  text-transform: uppercase;
-}
-div.content #boton:hover, #boton a:hover{
-  background-color:greenyellow;
-  color: #000;
-  transition: all .2s ease-in-out;
 }
 .carousel .list .item:nth-child(1),
 .carousel .list .item:nth-child(2) {
@@ -221,39 +199,55 @@ div.content #boton:hover, #boton a:hover{
   position: absolute;
   top: 80%;
   left: 30%;
-  width: 300px;
-  max-width: 30%;
   z-index: 100;
   display: flex;
   gap: 20px;
   align-items: center;
-  width: fit-content;
+  width: 400px;
 }
 .carousel .flechas button:hover{
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
-  background-color: greenyellow;
-  color:black;
+  background-color: #134235;
+  color:#838252;
 }
 .carousel .flechas button {
-  width: 50px;
-  height: 50px;
-  background-color: bisque;
+  width: 70px;
+  height: 70px;
+  background-color:beige;
   border-radius: 50%;
   border: none;
   outline: none;
   cursor: pointer;
-  color: white;
+  color:black;
   font-size: 1rem;
   font-family: monospace;
   transition: .5s;
+}
+.servicios {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e9f4f6;
+  margin-top: 2rem;
+}
+.servicios h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #134235;
+}
+.servicios p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 .card-grid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin:2rem;
 }
 
 .card {
@@ -332,30 +326,45 @@ div.content #boton:hover, #boton a:hover{
     align-content: center;
     justify-content: center;
     background-color:#c3dee0;
+    margin-bottom: 2%;
 }
 .service-item:hover{
-    box-shadow: 3px 0px 0px #6b5626;
+    box-shadow: 3px 0px 0px #134235;
 }
-.service-icon {
-  font-size: 2.5rem;
-  color: var(#0f0);
-  margin-right: 1rem;
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
+
 
 .service-label {
   font-family: var(--ff-main);
-  font-size: 1.5rem;
-  color: var(#0f0);
+  font-size: 2.5rem;
   margin-bottom: 0.3rem;
   text-align: center;
 }
 
 .service-value {
   font-family: var(--ff-main);
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: var(--text-2);
-  text-transform:justify;
+  text-align:justify;
+  padding: 1rem;
+}
+.servicio-titulo {
+  background-color: #134235;
+  padding-top:6rem;
+  align-items: center;
+}
+.servicio-titulo h2{
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: var(--ff-main);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5%;
+  color:#c3dee0;
 }
 footer {
   display: flex;
@@ -364,16 +373,133 @@ footer {
   padding: clamp(0.5rem,2vw,1rem);
   color: #fff;
 }
+.about-titulo {
+  background-color: #134235;
+  padding-top:6rem;
+  align-items: center;
+}
+.about-titulo h2{
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: var(--ff-main);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5%;
+  color:#c3dee0;
+}
+.about-content{
+  padding: 1rem;
 
-.logoFooter img {
-  max-height: 40px;
-  width: auto;
+}
+.about-text {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: justify;
+  margin-top: 2rem;
+}
+.img-logo{
+  max-width: 100%;
+  height: 100vh;
+  padding-left: 40%;
+  padding-bottom: 10%;
+
+}
+.contact-titulo {
+  background-color: #134235;
+  padding-top:6rem;
+  align-items: center;
+}
+.contact-titulo h2{
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: var(--ff-main);
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 5%;
+  color:#c3dee0;
+}
+.contact-content{
+  padding: 1rem;
+
+}
+.contact-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-top: 2rem;
+}
+.contact-info {
+  padding-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(none, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.footerCopyRight p {
-  margin: 0;
-  font-size: 0.75rem;
+.contact-item {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1.5rem;
   text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-item h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #134235; 
+}
+
+.contact-item a {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #08c1ff; 
+  text-decoration: none;
+  margin-top: 0.25rem;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+.contact-item address,
+.contact-item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  .contact-item {
+    padding: 1rem;
+  }
+}
+
+.logoFooter img{
+  max-height:100px;
+  padding-left: 20%;
+  align-items: center;
+}
+
+.footerCopyRight p{
+  padding-top: 60px;
+  padding-left: 10%;
+  font-size: 1.3rem;
 }
 @media (min-width: 769px) {
   nav {

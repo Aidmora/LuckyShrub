@@ -13,7 +13,6 @@ function renderCarousel(slides) {
             item.querySelector('.titulo').textContent = slide.titulo;
             item.querySelector('.nombre').textContent = slide.nombre;
             item.querySelector('.descripcion').textContent = slide.descripcion;
-            item.querySelector('#boton a').setAttribute('href', slide.link);
           }
           item.classList.add(`slide-${i+1}`);
           container.appendChild(item);
