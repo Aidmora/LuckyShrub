@@ -163,14 +163,12 @@ div.content{
 .item .content .descripcion{
   font-size: 1rem;
   text-transform: uppercase;
-  opacity: 0.8;
   line-height: 3;
   opacity: 0;
   animation: animation 1s ease-in-out 0.9s 1 forwards;
 }
 div.content #boton{
   padding: 10px 10px;
-  border: none;
   cursor:pointer;
   background-color: transparent;
   border: 2px solid #fff;
@@ -184,7 +182,6 @@ div.content #boton{
   font-size: 0.8rem;
   font-weight: bold;
   font-family: monospace;
-;
   text-transform: uppercase;
 }
 div.content #boton:hover, #boton a:hover{
@@ -247,6 +244,25 @@ div.content #boton:hover, #boton a:hover{
   font-size: 1rem;
   font-family: monospace;
   transition: .5s;
+}
+.servicios {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e9f4f6;
+  margin-top: 2rem;
+}
+.servicios h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #134235;
+}
+.servicios p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 .card-grid {
   display: grid;
